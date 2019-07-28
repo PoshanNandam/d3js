@@ -1,0 +1,59 @@
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+.pagination a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+}
+.container {
+  margin-top: 20px;
+}
+.page {
+  display: none;
+  font-size: 1.1em;
+}
+.page-active {
+  display: block;
+}
+.btn{
+  text-align: center;
+}
+button{
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.1em;
+  margin: 2px 2px;
+  cursor: pointer;
+  border-radius: 25px;
+}
+table{
+  text-align: center;
+  border-collapse: collapse;
+}
+tr:nth-child(even){
+  background-color: lightgrey ;
+}
+th{
+  background-color: lightgrey ; 
+}
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+.pages{
+  font-size: 1.1em;
+}

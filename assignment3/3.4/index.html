@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" lang="en">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <title>Assignment 3.4</title>
+  <script type="text/javascript" src="js/script.js"></script>
+</head>
+
+<body>
+  <table width="100%">
+    <thead>
+      <tr>
+        <th class="th-sm">SNo
+        </th>
+        <th class="th-sm">StartupName
+        </th>
+        <th class="th-sm">IndustryVertical
+        </th>
+        <th class="th-sm">CityLocation
+        </th>
+        <th class="th-sm">Date
+        </th>
+        <th class="th-sm">AmountInUSD
+        </th>
+      </tr>
+    </thead>
+    <tbody id="adding">
+    </tbody>
+  </table><br>
+  <div class="btn">
+    <div id="listingTable"></div>
+    <a><button onclick="prevPage()" id="btn_prev">Prev</button></a>
+    <a><button onclick="nextPage()" id="btn_next">Next</button></a>
+    <span class="pages">
+      Page: <span id="page"></span>
+    </span>
+  </div>
+</body>
+<script src="https://d3js.org/d3.v5.min.js"></script>
+</html>
